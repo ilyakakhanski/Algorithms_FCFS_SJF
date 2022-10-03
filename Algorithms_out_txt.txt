@@ -1,0 +1,2297 @@
+//DLA N=10 PRZY LOSOWYCH CZASACH PRZYJŚCIA//
+
+Process 1, arrivalTime: 0ms, burstTime: 5ms
+
+Process 2, arrivalTime: 1ms, burstTime: 5ms
+
+Process 3, arrivalTime: 2ms, burstTime: 5ms
+
+Process 4, arrivalTime: 8ms, burstTime: 6ms
+
+Process 5, arrivalTime: 5ms, burstTime: 4ms
+
+Process 6, arrivalTime: 5ms, burstTime: 7ms
+
+Process 7, arrivalTime: 5ms, burstTime: 4ms
+
+Process 8, arrivalTime: 4ms, burstTime: 6ms
+
+Process 9, arrivalTime: 4ms, burstTime: 5ms
+
+Process 10, arrivalTime: 2ms, burstTime: 6ms
+****************************************
+
+
+"FCFS"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 5 ms, burstTime: 5 ms
+****************************************
+
+Start process 2, time: 5 ms, waitingTime: 4 ms
+Finish process 2, time: 10 ms, burstTime: 5 ms
+****************************************
+
+Start process 3, time: 10 ms, waitingTime: 8 ms
+Finish process 3, time: 15 ms, burstTime: 5 ms
+****************************************
+
+Start process 10, time: 15 ms, waitingTime: 13 ms
+Finish process 10, time: 21 ms, burstTime: 6 ms
+****************************************
+
+Start process 8, time: 21 ms, waitingTime: 17 ms
+Finish process 8, time: 27 ms, burstTime: 6 ms
+****************************************
+
+Start process 9, time: 27 ms, waitingTime: 23 ms
+Finish process 9, time: 32 ms, burstTime: 5 ms
+****************************************
+
+Start process 5, time: 32 ms, waitingTime: 27 ms
+Finish process 5, time: 36 ms, burstTime: 4 ms
+****************************************
+
+Start process 6, time: 36 ms, waitingTime: 31 ms
+Finish process 6, time: 43 ms, burstTime: 7 ms
+****************************************
+
+Start process 7, time: 43 ms, waitingTime: 38 ms
+Finish process 7, time: 47 ms, burstTime: 4 ms
+****************************************
+
+Start process 4, time: 47 ms, waitingTime: 39 ms
+Finish process 4, time: 53 ms, burstTime: 6 ms
+****************************************
+
+Total processes time: 53 ms
+Total waiting time of processes: 200 ms
+An average waiting time of all processes: 20.0 ms
+
+
+Process 1, arrivalTime: 0ms, burstTime: 5ms
+
+Process 2, arrivalTime: 2ms, burstTime: 4ms
+
+Process 3, arrivalTime: 7ms, burstTime: 5ms
+
+Process 4, arrivalTime: 4ms, burstTime: 7ms
+
+Process 5, arrivalTime: 2ms, burstTime: 5ms
+
+Process 6, arrivalTime: 6ms, burstTime: 5ms
+
+Process 7, arrivalTime: 6ms, burstTime: 6ms
+
+Process 8, arrivalTime: 9ms, burstTime: 5ms
+
+Process 9, arrivalTime: 1ms, burstTime: 6ms
+
+Process 10, arrivalTime: 9ms, burstTime: 4ms
+****************************************
+
+
+"SJF"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 5 ms, burstTime: 5 ms
+****************************************
+
+Start process 2, time: 5 ms, waitingTime: 3 ms
+Finish process 2, time: 9 ms, burstTime: 4 ms
+****************************************
+
+Start process 10, time: 9 ms, waitingTime: 0 ms
+Finish process 10, time: 13 ms, burstTime: 4 ms
+****************************************
+
+Start process 5, time: 13 ms, waitingTime: 11 ms
+Finish process 5, time: 18 ms, burstTime: 5 ms
+****************************************
+
+Start process 6, time: 18 ms, waitingTime: 12 ms
+Finish process 6, time: 23 ms, burstTime: 5 ms
+****************************************
+
+Start process 3, time: 23 ms, waitingTime: 16 ms
+Finish process 3, time: 28 ms, burstTime: 5 ms
+****************************************
+
+Start process 8, time: 28 ms, waitingTime: 19 ms
+Finish process 8, time: 33 ms, burstTime: 5 ms
+****************************************
+
+Start process 9, time: 33 ms, waitingTime: 32 ms
+Finish process 9, time: 39 ms, burstTime: 6 ms
+****************************************
+
+Start process 7, time: 39 ms, waitingTime: 33 ms
+Finish process 7, time: 45 ms, burstTime: 6 ms
+****************************************
+
+Start process 4, time: 45 ms, waitingTime: 41 ms
+Finish process 4, time: 52 ms, burstTime: 7 ms
+****************************************
+
+Total processes time: 52 ms
+Total waiting time of processes: 167 ms
+An average waiting time of all processes: 16.7 ms
+
+
+//DLA N=100 PRZY LOSOWYCH CZASACH PRZYJŚCIA//
+
+Process 1, arrivalTime: 0ms, burstTime: 4ms
+
+Process 2, arrivalTime: 84ms, burstTime: 5ms
+
+Process 3, arrivalTime: 41ms, burstTime: 5ms
+
+Process 4, arrivalTime: 39ms, burstTime: 4ms
+
+Process 5, arrivalTime: 73ms, burstTime: 3ms
+
+Process 6, arrivalTime: 11ms, burstTime: 3ms
+
+Process 7, arrivalTime: 44ms, burstTime: 4ms
+
+Process 8, arrivalTime: 77ms, burstTime: 5ms
+
+Process 9, arrivalTime: 92ms, burstTime: 4ms
+
+Process 10, arrivalTime: 12ms, burstTime: 6ms
+
+Process 11, arrivalTime: 2ms, burstTime: 7ms
+
+Process 12, arrivalTime: 92ms, burstTime: 6ms
+
+Process 13, arrivalTime: 7ms, burstTime: 7ms
+
+Process 14, arrivalTime: 95ms, burstTime: 7ms
+
+Process 15, arrivalTime: 19ms, burstTime: 6ms
+
+Process 16, arrivalTime: 63ms, burstTime: 6ms
+
+Process 17, arrivalTime: 72ms, burstTime: 6ms
+
+Process 18, arrivalTime: 63ms, burstTime: 5ms
+
+Process 19, arrivalTime: 37ms, burstTime: 4ms
+
+Process 20, arrivalTime: 20ms, burstTime: 3ms
+
+Process 21, arrivalTime: 82ms, burstTime: 4ms
+
+Process 22, arrivalTime: 87ms, burstTime: 5ms
+
+Process 23, arrivalTime: 1ms, burstTime: 6ms
+
+Process 24, arrivalTime: 79ms, burstTime: 6ms
+
+Process 25, arrivalTime: 91ms, burstTime: 4ms
+
+Process 26, arrivalTime: 33ms, burstTime: 4ms
+
+Process 27, arrivalTime: 65ms, burstTime: 4ms
+
+Process 28, arrivalTime: 90ms, burstTime: 4ms
+
+Process 29, arrivalTime: 71ms, burstTime: 6ms
+
+Process 30, arrivalTime: 83ms, burstTime: 6ms
+
+Process 31, arrivalTime: 58ms, burstTime: 5ms
+
+Process 32, arrivalTime: 23ms, burstTime: 6ms
+
+Process 33, arrivalTime: 37ms, burstTime: 4ms
+
+Process 34, arrivalTime: 25ms, burstTime: 6ms
+
+Process 35, arrivalTime: 42ms, burstTime: 5ms
+
+Process 36, arrivalTime: 85ms, burstTime: 5ms
+
+Process 37, arrivalTime: 47ms, burstTime: 5ms
+
+Process 38, arrivalTime: 47ms, burstTime: 5ms
+
+Process 39, arrivalTime: 89ms, burstTime: 4ms
+
+Process 40, arrivalTime: 42ms, burstTime: 6ms
+
+Process 41, arrivalTime: 37ms, burstTime: 5ms
+
+Process 42, arrivalTime: 82ms, burstTime: 4ms
+
+Process 43, arrivalTime: 5ms, burstTime: 3ms
+
+Process 44, arrivalTime: 55ms, burstTime: 3ms
+
+Process 45, arrivalTime: 17ms, burstTime: 5ms
+
+Process 46, arrivalTime: 8ms, burstTime: 5ms
+
+Process 47, arrivalTime: 30ms, burstTime: 6ms
+
+Process 48, arrivalTime: 22ms, burstTime: 4ms
+
+Process 49, arrivalTime: 13ms, burstTime: 5ms
+
+Process 50, arrivalTime: 28ms, burstTime: 5ms
+
+Process 51, arrivalTime: 80ms, burstTime: 5ms
+
+Process 52, arrivalTime: 92ms, burstTime: 6ms
+
+Process 53, arrivalTime: 93ms, burstTime: 5ms
+
+Process 54, arrivalTime: 20ms, burstTime: 4ms
+
+Process 55, arrivalTime: 53ms, burstTime: 5ms
+
+Process 56, arrivalTime: 64ms, burstTime: 4ms
+
+Process 57, arrivalTime: 85ms, burstTime: 8ms
+
+Process 58, arrivalTime: 68ms, burstTime: 5ms
+
+Process 59, arrivalTime: 65ms, burstTime: 4ms
+
+Process 60, arrivalTime: 9ms, burstTime: 5ms
+
+Process 61, arrivalTime: 3ms, burstTime: 4ms
+
+Process 62, arrivalTime: 10ms, burstTime: 5ms
+
+Process 63, arrivalTime: 14ms, burstTime: 4ms
+
+Process 64, arrivalTime: 26ms, burstTime: 5ms
+
+Process 65, arrivalTime: 7ms, burstTime: 5ms
+
+Process 66, arrivalTime: 68ms, burstTime: 5ms
+
+Process 67, arrivalTime: 48ms, burstTime: 6ms
+
+Process 68, arrivalTime: 87ms, burstTime: 5ms
+
+Process 69, arrivalTime: 80ms, burstTime: 3ms
+
+Process 70, arrivalTime: 10ms, burstTime: 7ms
+
+Process 71, arrivalTime: 61ms, burstTime: 4ms
+
+Process 72, arrivalTime: 81ms, burstTime: 6ms
+
+Process 73, arrivalTime: 85ms, burstTime: 3ms
+
+Process 74, arrivalTime: 93ms, burstTime: 6ms
+
+Process 75, arrivalTime: 19ms, burstTime: 5ms
+
+Process 76, arrivalTime: 80ms, burstTime: 4ms
+
+Process 77, arrivalTime: 86ms, burstTime: 6ms
+
+Process 78, arrivalTime: 34ms, burstTime: 4ms
+
+Process 79, arrivalTime: 52ms, burstTime: 4ms
+
+Process 80, arrivalTime: 28ms, burstTime: 5ms
+
+Process 81, arrivalTime: 74ms, burstTime: 5ms
+
+Process 82, arrivalTime: 43ms, burstTime: 7ms
+
+Process 83, arrivalTime: 19ms, burstTime: 6ms
+
+Process 84, arrivalTime: 47ms, burstTime: 6ms
+
+Process 85, arrivalTime: 88ms, burstTime: 5ms
+
+Process 86, arrivalTime: 46ms, burstTime: 5ms
+
+Process 87, arrivalTime: 97ms, burstTime: 8ms
+
+Process 88, arrivalTime: 80ms, burstTime: 4ms
+
+Process 89, arrivalTime: 68ms, burstTime: 4ms
+
+Process 90, arrivalTime: 22ms, burstTime: 6ms
+
+Process 91, arrivalTime: 91ms, burstTime: 4ms
+
+Process 92, arrivalTime: 34ms, burstTime: 4ms
+
+Process 93, arrivalTime: 40ms, burstTime: 6ms
+
+Process 94, arrivalTime: 60ms, burstTime: 6ms
+
+Process 95, arrivalTime: 78ms, burstTime: 5ms
+
+Process 96, arrivalTime: 91ms, burstTime: 6ms
+
+Process 97, arrivalTime: 38ms, burstTime: 4ms
+
+Process 98, arrivalTime: 96ms, burstTime: 5ms
+
+Process 99, arrivalTime: 19ms, burstTime: 5ms
+
+Process 100, arrivalTime: 32ms, burstTime: 4ms
+****************************************
+
+
+"FCFS"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 4 ms, burstTime: 4 ms
+****************************************
+
+Start process 23, time: 4 ms, waitingTime: 3 ms
+Finish process 23, time: 10 ms, burstTime: 6 ms
+****************************************
+
+Start process 11, time: 10 ms, waitingTime: 8 ms
+Finish process 11, time: 17 ms, burstTime: 7 ms
+****************************************
+
+Start process 61, time: 17 ms, waitingTime: 14 ms
+Finish process 61, time: 21 ms, burstTime: 4 ms
+****************************************
+
+Start process 43, time: 21 ms, waitingTime: 16 ms
+Finish process 43, time: 24 ms, burstTime: 3 ms
+****************************************
+
+Start process 13, time: 24 ms, waitingTime: 17 ms
+Finish process 13, time: 31 ms, burstTime: 7 ms
+****************************************
+
+Start process 65, time: 31 ms, waitingTime: 24 ms
+Finish process 65, time: 36 ms, burstTime: 5 ms
+****************************************
+
+Start process 46, time: 36 ms, waitingTime: 28 ms
+Finish process 46, time: 41 ms, burstTime: 5 ms
+****************************************
+
+Start process 60, time: 41 ms, waitingTime: 32 ms
+Finish process 60, time: 46 ms, burstTime: 5 ms
+****************************************
+
+Start process 62, time: 46 ms, waitingTime: 36 ms
+Finish process 62, time: 51 ms, burstTime: 5 ms
+****************************************
+
+Start process 70, time: 51 ms, waitingTime: 41 ms
+Finish process 70, time: 58 ms, burstTime: 7 ms
+****************************************
+
+Start process 6, time: 58 ms, waitingTime: 47 ms
+Finish process 6, time: 61 ms, burstTime: 3 ms
+****************************************
+
+Start process 10, time: 61 ms, waitingTime: 49 ms
+Finish process 10, time: 67 ms, burstTime: 6 ms
+****************************************
+
+Start process 49, time: 67 ms, waitingTime: 54 ms
+Finish process 49, time: 72 ms, burstTime: 5 ms
+****************************************
+
+Start process 63, time: 72 ms, waitingTime: 58 ms
+Finish process 63, time: 76 ms, burstTime: 4 ms
+****************************************
+
+Start process 45, time: 76 ms, waitingTime: 59 ms
+Finish process 45, time: 81 ms, burstTime: 5 ms
+****************************************
+
+Start process 15, time: 81 ms, waitingTime: 62 ms
+Finish process 15, time: 87 ms, burstTime: 6 ms
+****************************************
+
+Start process 75, time: 87 ms, waitingTime: 68 ms
+Finish process 75, time: 92 ms, burstTime: 5 ms
+****************************************
+
+Start process 83, time: 92 ms, waitingTime: 73 ms
+Finish process 83, time: 98 ms, burstTime: 6 ms
+****************************************
+
+Start process 99, time: 98 ms, waitingTime: 79 ms
+Finish process 99, time: 103 ms, burstTime: 5 ms
+****************************************
+
+Start process 20, time: 103 ms, waitingTime: 83 ms
+Finish process 20, time: 106 ms, burstTime: 3 ms
+****************************************
+
+Start process 54, time: 106 ms, waitingTime: 86 ms
+Finish process 54, time: 110 ms, burstTime: 4 ms
+****************************************
+
+Start process 48, time: 110 ms, waitingTime: 88 ms
+Finish process 48, time: 114 ms, burstTime: 4 ms
+****************************************
+
+Start process 90, time: 114 ms, waitingTime: 92 ms
+Finish process 90, time: 120 ms, burstTime: 6 ms
+****************************************
+
+Start process 32, time: 120 ms, waitingTime: 97 ms
+Finish process 32, time: 126 ms, burstTime: 6 ms
+****************************************
+
+Start process 34, time: 126 ms, waitingTime: 101 ms
+Finish process 34, time: 132 ms, burstTime: 6 ms
+****************************************
+
+Start process 64, time: 132 ms, waitingTime: 106 ms
+Finish process 64, time: 137 ms, burstTime: 5 ms
+****************************************
+
+Start process 50, time: 137 ms, waitingTime: 109 ms
+Finish process 50, time: 142 ms, burstTime: 5 ms
+****************************************
+
+Start process 80, time: 142 ms, waitingTime: 114 ms
+Finish process 80, time: 147 ms, burstTime: 5 ms
+****************************************
+
+Start process 47, time: 147 ms, waitingTime: 117 ms
+Finish process 47, time: 153 ms, burstTime: 6 ms
+****************************************
+
+Start process 100, time: 153 ms, waitingTime: 121 ms
+Finish process 100, time: 157 ms, burstTime: 4 ms
+****************************************
+
+Start process 26, time: 157 ms, waitingTime: 124 ms
+Finish process 26, time: 161 ms, burstTime: 4 ms
+****************************************
+
+Start process 78, time: 161 ms, waitingTime: 127 ms
+Finish process 78, time: 165 ms, burstTime: 4 ms
+****************************************
+
+Start process 92, time: 165 ms, waitingTime: 131 ms
+Finish process 92, time: 169 ms, burstTime: 4 ms
+****************************************
+
+Start process 19, time: 169 ms, waitingTime: 132 ms
+Finish process 19, time: 173 ms, burstTime: 4 ms
+****************************************
+
+Start process 33, time: 173 ms, waitingTime: 136 ms
+Finish process 33, time: 177 ms, burstTime: 4 ms
+****************************************
+
+Start process 41, time: 177 ms, waitingTime: 140 ms
+Finish process 41, time: 182 ms, burstTime: 5 ms
+****************************************
+
+Start process 97, time: 182 ms, waitingTime: 144 ms
+Finish process 97, time: 186 ms, burstTime: 4 ms
+****************************************
+
+Start process 4, time: 186 ms, waitingTime: 147 ms
+Finish process 4, time: 190 ms, burstTime: 4 ms
+****************************************
+
+Start process 93, time: 190 ms, waitingTime: 150 ms
+Finish process 93, time: 196 ms, burstTime: 6 ms
+****************************************
+
+Start process 3, time: 196 ms, waitingTime: 155 ms
+Finish process 3, time: 201 ms, burstTime: 5 ms
+****************************************
+
+Start process 35, time: 201 ms, waitingTime: 159 ms
+Finish process 35, time: 206 ms, burstTime: 5 ms
+****************************************
+
+Start process 40, time: 206 ms, waitingTime: 164 ms
+Finish process 40, time: 212 ms, burstTime: 6 ms
+****************************************
+
+Start process 82, time: 212 ms, waitingTime: 169 ms
+Finish process 82, time: 219 ms, burstTime: 7 ms
+****************************************
+
+Start process 7, time: 219 ms, waitingTime: 175 ms
+Finish process 7, time: 223 ms, burstTime: 4 ms
+****************************************
+
+Start process 86, time: 223 ms, waitingTime: 177 ms
+Finish process 86, time: 228 ms, burstTime: 5 ms
+****************************************
+
+Start process 37, time: 228 ms, waitingTime: 181 ms
+Finish process 37, time: 233 ms, burstTime: 5 ms
+****************************************
+
+Start process 38, time: 233 ms, waitingTime: 186 ms
+Finish process 38, time: 238 ms, burstTime: 5 ms
+****************************************
+
+Start process 84, time: 238 ms, waitingTime: 191 ms
+Finish process 84, time: 244 ms, burstTime: 6 ms
+****************************************
+
+Start process 67, time: 244 ms, waitingTime: 196 ms
+Finish process 67, time: 250 ms, burstTime: 6 ms
+****************************************
+
+Start process 79, time: 250 ms, waitingTime: 198 ms
+Finish process 79, time: 254 ms, burstTime: 4 ms
+****************************************
+
+Start process 55, time: 254 ms, waitingTime: 201 ms
+Finish process 55, time: 259 ms, burstTime: 5 ms
+****************************************
+
+Start process 44, time: 259 ms, waitingTime: 204 ms
+Finish process 44, time: 262 ms, burstTime: 3 ms
+****************************************
+
+Start process 31, time: 262 ms, waitingTime: 204 ms
+Finish process 31, time: 267 ms, burstTime: 5 ms
+****************************************
+
+Start process 94, time: 267 ms, waitingTime: 207 ms
+Finish process 94, time: 273 ms, burstTime: 6 ms
+****************************************
+
+Start process 71, time: 273 ms, waitingTime: 212 ms
+Finish process 71, time: 277 ms, burstTime: 4 ms
+****************************************
+
+Start process 16, time: 277 ms, waitingTime: 214 ms
+Finish process 16, time: 283 ms, burstTime: 6 ms
+****************************************
+
+Start process 18, time: 283 ms, waitingTime: 220 ms
+Finish process 18, time: 288 ms, burstTime: 5 ms
+****************************************
+
+Start process 56, time: 288 ms, waitingTime: 224 ms
+Finish process 56, time: 292 ms, burstTime: 4 ms
+****************************************
+
+Start process 27, time: 292 ms, waitingTime: 227 ms
+Finish process 27, time: 296 ms, burstTime: 4 ms
+****************************************
+
+Start process 59, time: 296 ms, waitingTime: 231 ms
+Finish process 59, time: 300 ms, burstTime: 4 ms
+****************************************
+
+Start process 58, time: 300 ms, waitingTime: 232 ms
+Finish process 58, time: 305 ms, burstTime: 5 ms
+****************************************
+
+Start process 66, time: 305 ms, waitingTime: 237 ms
+Finish process 66, time: 310 ms, burstTime: 5 ms
+****************************************
+
+Start process 89, time: 310 ms, waitingTime: 242 ms
+Finish process 89, time: 314 ms, burstTime: 4 ms
+****************************************
+
+Start process 29, time: 314 ms, waitingTime: 243 ms
+Finish process 29, time: 320 ms, burstTime: 6 ms
+****************************************
+
+Start process 17, time: 320 ms, waitingTime: 248 ms
+Finish process 17, time: 326 ms, burstTime: 6 ms
+****************************************
+
+Start process 5, time: 326 ms, waitingTime: 253 ms
+Finish process 5, time: 329 ms, burstTime: 3 ms
+****************************************
+
+Start process 81, time: 329 ms, waitingTime: 255 ms
+Finish process 81, time: 334 ms, burstTime: 5 ms
+****************************************
+
+Start process 8, time: 334 ms, waitingTime: 257 ms
+Finish process 8, time: 339 ms, burstTime: 5 ms
+****************************************
+
+Start process 95, time: 339 ms, waitingTime: 261 ms
+Finish process 95, time: 344 ms, burstTime: 5 ms
+****************************************
+
+Start process 24, time: 344 ms, waitingTime: 265 ms
+Finish process 24, time: 350 ms, burstTime: 6 ms
+****************************************
+
+Start process 51, time: 350 ms, waitingTime: 270 ms
+Finish process 51, time: 355 ms, burstTime: 5 ms
+****************************************
+
+Start process 69, time: 355 ms, waitingTime: 275 ms
+Finish process 69, time: 358 ms, burstTime: 3 ms
+****************************************
+
+Start process 76, time: 358 ms, waitingTime: 278 ms
+Finish process 76, time: 362 ms, burstTime: 4 ms
+****************************************
+
+Start process 88, time: 362 ms, waitingTime: 282 ms
+Finish process 88, time: 366 ms, burstTime: 4 ms
+****************************************
+
+Start process 72, time: 366 ms, waitingTime: 285 ms
+Finish process 72, time: 372 ms, burstTime: 6 ms
+****************************************
+
+Start process 21, time: 372 ms, waitingTime: 290 ms
+Finish process 21, time: 376 ms, burstTime: 4 ms
+****************************************
+
+Start process 42, time: 376 ms, waitingTime: 294 ms
+Finish process 42, time: 380 ms, burstTime: 4 ms
+****************************************
+
+Start process 30, time: 380 ms, waitingTime: 297 ms
+Finish process 30, time: 386 ms, burstTime: 6 ms
+****************************************
+
+Start process 2, time: 386 ms, waitingTime: 302 ms
+Finish process 2, time: 391 ms, burstTime: 5 ms
+****************************************
+
+Start process 36, time: 391 ms, waitingTime: 306 ms
+Finish process 36, time: 396 ms, burstTime: 5 ms
+****************************************
+
+Start process 57, time: 396 ms, waitingTime: 311 ms
+Finish process 57, time: 404 ms, burstTime: 8 ms
+****************************************
+
+Start process 73, time: 404 ms, waitingTime: 319 ms
+Finish process 73, time: 407 ms, burstTime: 3 ms
+****************************************
+
+Start process 77, time: 407 ms, waitingTime: 321 ms
+Finish process 77, time: 413 ms, burstTime: 6 ms
+****************************************
+
+Start process 22, time: 413 ms, waitingTime: 326 ms
+Finish process 22, time: 418 ms, burstTime: 5 ms
+****************************************
+
+Start process 68, time: 418 ms, waitingTime: 331 ms
+Finish process 68, time: 423 ms, burstTime: 5 ms
+****************************************
+
+Start process 85, time: 423 ms, waitingTime: 335 ms
+Finish process 85, time: 428 ms, burstTime: 5 ms
+****************************************
+
+Start process 39, time: 428 ms, waitingTime: 339 ms
+Finish process 39, time: 432 ms, burstTime: 4 ms
+****************************************
+
+Start process 28, time: 432 ms, waitingTime: 342 ms
+Finish process 28, time: 436 ms, burstTime: 4 ms
+****************************************
+
+Start process 25, time: 436 ms, waitingTime: 345 ms
+Finish process 25, time: 440 ms, burstTime: 4 ms
+****************************************
+
+Start process 91, time: 440 ms, waitingTime: 349 ms
+Finish process 91, time: 444 ms, burstTime: 4 ms
+****************************************
+
+Start process 96, time: 444 ms, waitingTime: 353 ms
+Finish process 96, time: 450 ms, burstTime: 6 ms
+****************************************
+
+Start process 9, time: 450 ms, waitingTime: 358 ms
+Finish process 9, time: 454 ms, burstTime: 4 ms
+****************************************
+
+Start process 12, time: 454 ms, waitingTime: 362 ms
+Finish process 12, time: 460 ms, burstTime: 6 ms
+****************************************
+
+Start process 52, time: 460 ms, waitingTime: 368 ms
+Finish process 52, time: 466 ms, burstTime: 6 ms
+****************************************
+
+Start process 53, time: 466 ms, waitingTime: 373 ms
+Finish process 53, time: 471 ms, burstTime: 5 ms
+****************************************
+
+Start process 74, time: 471 ms, waitingTime: 378 ms
+Finish process 74, time: 477 ms, burstTime: 6 ms
+****************************************
+
+Start process 14, time: 477 ms, waitingTime: 382 ms
+Finish process 14, time: 484 ms, burstTime: 7 ms
+****************************************
+
+Start process 98, time: 484 ms, waitingTime: 388 ms
+Finish process 98, time: 489 ms, burstTime: 5 ms
+****************************************
+
+Start process 87, time: 489 ms, waitingTime: 392 ms
+Finish process 87, time: 497 ms, burstTime: 8 ms
+****************************************
+
+
+Total processes time: 497 ms
+Total waiting time of processes: 19252 ms
+An average waiting time of all processes: 192.52 ms
+
+
+Process 1, arrivalTime: 0ms, burstTime: 6ms
+
+Process 2, arrivalTime: 95ms, burstTime: 7ms
+
+Process 3, arrivalTime: 78ms, burstTime: 6ms
+
+Process 4, arrivalTime: 25ms, burstTime: 5ms
+
+Process 5, arrivalTime: 65ms, burstTime: 5ms
+
+Process 6, arrivalTime: 11ms, burstTime: 5ms
+
+Process 7, arrivalTime: 59ms, burstTime: 6ms
+
+Process 8, arrivalTime: 33ms, burstTime: 6ms
+
+Process 9, arrivalTime: 99ms, burstTime: 6ms
+
+Process 10, arrivalTime: 39ms, burstTime: 3ms
+
+Process 11, arrivalTime: 39ms, burstTime: 4ms
+
+Process 12, arrivalTime: 98ms, burstTime: 5ms
+
+Process 13, arrivalTime: 5ms, burstTime: 6ms
+
+Process 14, arrivalTime: 15ms, burstTime: 6ms
+
+Process 15, arrivalTime: 47ms, burstTime: 7ms
+
+Process 16, arrivalTime: 74ms, burstTime: 3ms
+
+Process 17, arrivalTime: 54ms, burstTime: 3ms
+
+Process 18, arrivalTime: 69ms, burstTime: 7ms
+
+Process 19, arrivalTime: 94ms, burstTime: 4ms
+
+Process 20, arrivalTime: 87ms, burstTime: 7ms
+
+Process 21, arrivalTime: 99ms, burstTime: 4ms
+
+Process 22, arrivalTime: 58ms, burstTime: 8ms
+
+Process 23, arrivalTime: 78ms, burstTime: 3ms
+
+Process 24, arrivalTime: 26ms, burstTime: 5ms
+
+Process 25, arrivalTime: 87ms, burstTime: 6ms
+
+Process 26, arrivalTime: 80ms, burstTime: 4ms
+
+Process 27, arrivalTime: 52ms, burstTime: 5ms
+
+Process 28, arrivalTime: 54ms, burstTime: 5ms
+
+Process 29, arrivalTime: 76ms, burstTime: 4ms
+
+Process 30, arrivalTime: 89ms, burstTime: 5ms
+
+Process 31, arrivalTime: 38ms, burstTime: 4ms
+
+Process 32, arrivalTime: 11ms, burstTime: 5ms
+
+Process 33, arrivalTime: 93ms, burstTime: 8ms
+
+Process 34, arrivalTime: 93ms, burstTime: 5ms
+
+Process 35, arrivalTime: 87ms, burstTime: 6ms
+
+Process 36, arrivalTime: 1ms, burstTime: 4ms
+
+Process 37, arrivalTime: 60ms, burstTime: 4ms
+
+Process 38, arrivalTime: 64ms, burstTime: 5ms
+
+Process 39, arrivalTime: 24ms, burstTime: 3ms
+
+Process 40, arrivalTime: 47ms, burstTime: 4ms
+
+Process 41, arrivalTime: 90ms, burstTime: 5ms
+
+Process 42, arrivalTime: 48ms, burstTime: 6ms
+
+Process 43, arrivalTime: 53ms, burstTime: 6ms
+
+Process 44, arrivalTime: 65ms, burstTime: 5ms
+
+Process 45, arrivalTime: 89ms, burstTime: 5ms
+
+Process 46, arrivalTime: 29ms, burstTime: 4ms
+
+Process 47, arrivalTime: 85ms, burstTime: 6ms
+
+Process 48, arrivalTime: 65ms, burstTime: 7ms
+
+Process 49, arrivalTime: 55ms, burstTime: 5ms
+
+Process 50, arrivalTime: 87ms, burstTime: 5ms
+
+Process 51, arrivalTime: 23ms, burstTime: 5ms
+
+Process 52, arrivalTime: 74ms, burstTime: 6ms
+
+Process 53, arrivalTime: 95ms, burstTime: 6ms
+
+Process 54, arrivalTime: 21ms, burstTime: 6ms
+
+Process 55, arrivalTime: 10ms, burstTime: 4ms
+
+Process 56, arrivalTime: 44ms, burstTime: 6ms
+
+Process 57, arrivalTime: 89ms, burstTime: 5ms
+
+Process 58, arrivalTime: 97ms, burstTime: 6ms
+
+Process 59, arrivalTime: 44ms, burstTime: 6ms
+
+Process 60, arrivalTime: 25ms, burstTime: 3ms
+
+Process 61, arrivalTime: 36ms, burstTime: 7ms
+
+Process 62, arrivalTime: 89ms, burstTime: 4ms
+
+Process 63, arrivalTime: 34ms, burstTime: 4ms
+
+Process 64, arrivalTime: 96ms, burstTime: 7ms
+
+Process 65, arrivalTime: 52ms, burstTime: 6ms
+
+Process 66, arrivalTime: 53ms, burstTime: 5ms
+
+Process 67, arrivalTime: 95ms, burstTime: 6ms
+
+Process 68, arrivalTime: 15ms, burstTime: 4ms
+
+Process 69, arrivalTime: 39ms, burstTime: 4ms
+
+Process 70, arrivalTime: 93ms, burstTime: 4ms
+
+Process 71, arrivalTime: 48ms, burstTime: 6ms
+
+Process 72, arrivalTime: 69ms, burstTime: 6ms
+
+Process 73, arrivalTime: 53ms, burstTime: 5ms
+
+Process 74, arrivalTime: 58ms, burstTime: 6ms
+
+Process 75, arrivalTime: 60ms, burstTime: 7ms
+
+Process 76, arrivalTime: 84ms, burstTime: 6ms
+
+Process 77, arrivalTime: 22ms, burstTime: 3ms
+
+Process 78, arrivalTime: 69ms, burstTime: 5ms
+
+Process 79, arrivalTime: 23ms, burstTime: 8ms
+
+Process 80, arrivalTime: 25ms, burstTime: 5ms
+
+Process 81, arrivalTime: 88ms, burstTime: 7ms
+
+Process 82, arrivalTime: 33ms, burstTime: 5ms
+
+Process 83, arrivalTime: 72ms, burstTime: 5ms
+
+Process 84, arrivalTime: 90ms, burstTime: 5ms
+
+Process 85, arrivalTime: 52ms, burstTime: 5ms
+
+Process 86, arrivalTime: 87ms, burstTime: 4ms
+
+Process 87, arrivalTime: 81ms, burstTime: 5ms
+
+Process 88, arrivalTime: 3ms, burstTime: 5ms
+
+Process 89, arrivalTime: 56ms, burstTime: 5ms
+
+Process 90, arrivalTime: 28ms, burstTime: 3ms
+
+Process 91, arrivalTime: 60ms, burstTime: 5ms
+
+Process 92, arrivalTime: 69ms, burstTime: 5ms
+
+Process 93, arrivalTime: 9ms, burstTime: 5ms
+
+Process 94, arrivalTime: 71ms, burstTime: 5ms
+
+Process 95, arrivalTime: 3ms, burstTime: 5ms
+
+Process 96, arrivalTime: 61ms, burstTime: 3ms
+
+Process 97, arrivalTime: 37ms, burstTime: 4ms
+
+Process 98, arrivalTime: 91ms, burstTime: 5ms
+
+Process 99, arrivalTime: 88ms, burstTime: 5ms
+
+Process 100, arrivalTime: 65ms, burstTime: 5ms
+****************************************
+
+
+"SJF"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 6 ms, burstTime: 6 ms
+****************************************
+
+Start process 36, time: 6 ms, waitingTime: 5 ms
+Finish process 36, time: 10 ms, burstTime: 4 ms
+****************************************
+
+Start process 55, time: 10 ms, waitingTime: 0 ms
+Finish process 55, time: 14 ms, burstTime: 4 ms
+****************************************
+
+Start process 88, time: 14 ms, waitingTime: 11 ms
+Finish process 88, time: 19 ms, burstTime: 5 ms
+****************************************
+
+Start process 68, time: 19 ms, waitingTime: 4 ms
+Finish process 68, time: 23 ms, burstTime: 4 ms
+****************************************
+
+Start process 77, time: 23 ms, waitingTime: 1 ms
+Finish process 77, time: 26 ms, burstTime: 3 ms
+****************************************
+
+Start process 39, time: 26 ms, waitingTime: 2 ms
+Finish process 39, time: 29 ms, burstTime: 3 ms
+****************************************
+
+Start process 60, time: 29 ms, waitingTime: 4 ms
+Finish process 60, time: 32 ms, burstTime: 3 ms
+****************************************
+
+Start process 90, time: 32 ms, waitingTime: 4 ms
+Finish process 90, time: 35 ms, burstTime: 3 ms
+****************************************
+
+Start process 46, time: 35 ms, waitingTime: 6 ms
+Finish process 46, time: 39 ms, burstTime: 4 ms
+****************************************
+
+Start process 10, time: 39 ms, waitingTime: 0 ms
+Finish process 10, time: 42 ms, burstTime: 3 ms
+****************************************
+
+Start process 63, time: 42 ms, waitingTime: 8 ms
+Finish process 63, time: 46 ms, burstTime: 4 ms
+****************************************
+
+Start process 97, time: 46 ms, waitingTime: 9 ms
+Finish process 97, time: 50 ms, burstTime: 4 ms
+****************************************
+
+Start process 31, time: 50 ms, waitingTime: 12 ms
+Finish process 31, time: 54 ms, burstTime: 4 ms
+****************************************
+
+Start process 17, time: 54 ms, waitingTime: 0 ms
+Finish process 17, time: 57 ms, burstTime: 3 ms
+****************************************
+
+Start process 11, time: 57 ms, waitingTime: 18 ms
+Finish process 11, time: 61 ms, burstTime: 4 ms
+****************************************
+
+Start process 96, time: 61 ms, waitingTime: 0 ms
+Finish process 96, time: 64 ms, burstTime: 3 ms
+****************************************
+
+Start process 69, time: 64 ms, waitingTime: 25 ms
+Finish process 69, time: 68 ms, burstTime: 4 ms
+****************************************
+
+Start process 40, time: 68 ms, waitingTime: 21 ms
+Finish process 40, time: 72 ms, burstTime: 4 ms
+****************************************
+
+Start process 37, time: 72 ms, waitingTime: 12 ms
+Finish process 37, time: 76 ms, burstTime: 4 ms
+****************************************
+
+Start process 16, time: 76 ms, waitingTime: 2 ms
+Finish process 16, time: 79 ms, burstTime: 3 ms
+****************************************
+
+Start process 23, time: 79 ms, waitingTime: 1 ms
+Finish process 23, time: 82 ms, burstTime: 3 ms
+****************************************
+
+Start process 29, time: 82 ms, waitingTime: 6 ms
+Finish process 29, time: 86 ms, burstTime: 4 ms
+****************************************
+
+Start process 26, time: 86 ms, waitingTime: 6 ms
+Finish process 26, time: 90 ms, burstTime: 4 ms
+****************************************
+
+Start process 86, time: 90 ms, waitingTime: 3 ms
+Finish process 86, time: 94 ms, burstTime: 4 ms
+****************************************
+
+Start process 62, time: 94 ms, waitingTime: 5 ms
+Finish process 62, time: 98 ms, burstTime: 4 ms
+****************************************
+
+Start process 70, time: 98 ms, waitingTime: 5 ms
+Finish process 70, time: 102 ms, burstTime: 4 ms
+****************************************
+
+Start process 19, time: 102 ms, waitingTime: 8 ms
+Finish process 19, time: 106 ms, burstTime: 4 ms
+****************************************
+
+Start process 21, time: 106 ms, waitingTime: 7 ms
+Finish process 21, time: 110 ms, burstTime: 4 ms
+****************************************
+
+Start process 95, time: 110 ms, waitingTime: 107 ms
+Finish process 95, time: 115 ms, burstTime: 5 ms
+****************************************
+
+Start process 93, time: 115 ms, waitingTime: 106 ms
+Finish process 93, time: 120 ms, burstTime: 5 ms
+****************************************
+
+Start process 6, time: 120 ms, waitingTime: 109 ms
+Finish process 6, time: 125 ms, burstTime: 5 ms
+****************************************
+
+Start process 32, time: 125 ms, waitingTime: 114 ms
+Finish process 32, time: 130 ms, burstTime: 5 ms
+****************************************
+
+Start process 51, time: 130 ms, waitingTime: 107 ms
+Finish process 51, time: 135 ms, burstTime: 5 ms
+****************************************
+
+Start process 4, time: 135 ms, waitingTime: 110 ms
+Finish process 4, time: 140 ms, burstTime: 5 ms
+****************************************
+
+Start process 80, time: 140 ms, waitingTime: 115 ms
+Finish process 80, time: 145 ms, burstTime: 5 ms
+****************************************
+
+Start process 24, time: 145 ms, waitingTime: 119 ms
+Finish process 24, time: 150 ms, burstTime: 5 ms
+****************************************
+
+Start process 82, time: 150 ms, waitingTime: 117 ms
+Finish process 82, time: 155 ms, burstTime: 5 ms
+****************************************
+
+Start process 27, time: 155 ms, waitingTime: 103 ms
+Finish process 27, time: 160 ms, burstTime: 5 ms
+****************************************
+
+Start process 85, time: 160 ms, waitingTime: 108 ms
+Finish process 85, time: 165 ms, burstTime: 5 ms
+****************************************
+
+Start process 66, time: 165 ms, waitingTime: 112 ms
+Finish process 66, time: 170 ms, burstTime: 5 ms
+****************************************
+
+Start process 73, time: 170 ms, waitingTime: 117 ms
+Finish process 73, time: 175 ms, burstTime: 5 ms
+****************************************
+
+Start process 28, time: 175 ms, waitingTime: 121 ms
+Finish process 28, time: 180 ms, burstTime: 5 ms
+****************************************
+
+Start process 49, time: 180 ms, waitingTime: 125 ms
+Finish process 49, time: 185 ms, burstTime: 5 ms
+****************************************
+
+Start process 89, time: 185 ms, waitingTime: 129 ms
+Finish process 89, time: 190 ms, burstTime: 5 ms
+****************************************
+
+Start process 91, time: 190 ms, waitingTime: 130 ms
+Finish process 91, time: 195 ms, burstTime: 5 ms
+****************************************
+
+Start process 38, time: 195 ms, waitingTime: 131 ms
+Finish process 38, time: 200 ms, burstTime: 5 ms
+****************************************
+
+Start process 5, time: 200 ms, waitingTime: 135 ms
+Finish process 5, time: 205 ms, burstTime: 5 ms
+****************************************
+
+Start process 44, time: 205 ms, waitingTime: 140 ms
+Finish process 44, time: 210 ms, burstTime: 5 ms
+****************************************
+
+Start process 100, time: 210 ms, waitingTime: 145 ms
+Finish process 100, time: 215 ms, burstTime: 5 ms
+****************************************
+
+Start process 78, time: 215 ms, waitingTime: 146 ms
+Finish process 78, time: 220 ms, burstTime: 5 ms
+****************************************
+
+Start process 92, time: 220 ms, waitingTime: 151 ms
+Finish process 92, time: 225 ms, burstTime: 5 ms
+****************************************
+
+Start process 94, time: 225 ms, waitingTime: 154 ms
+Finish process 94, time: 230 ms, burstTime: 5 ms
+****************************************
+
+Start process 83, time: 230 ms, waitingTime: 158 ms
+Finish process 83, time: 235 ms, burstTime: 5 ms
+****************************************
+
+Start process 87, time: 235 ms, waitingTime: 154 ms
+Finish process 87, time: 240 ms, burstTime: 5 ms
+****************************************
+
+Start process 50, time: 240 ms, waitingTime: 153 ms
+Finish process 50, time: 245 ms, burstTime: 5 ms
+****************************************
+
+Start process 99, time: 245 ms, waitingTime: 157 ms
+Finish process 99, time: 250 ms, burstTime: 5 ms
+****************************************
+
+Start process 30, time: 250 ms, waitingTime: 161 ms
+Finish process 30, time: 255 ms, burstTime: 5 ms
+****************************************
+
+Start process 45, time: 255 ms, waitingTime: 166 ms
+Finish process 45, time: 260 ms, burstTime: 5 ms
+****************************************
+
+Start process 57, time: 260 ms, waitingTime: 171 ms
+Finish process 57, time: 265 ms, burstTime: 5 ms
+****************************************
+
+Start process 41, time: 265 ms, waitingTime: 175 ms
+Finish process 41, time: 270 ms, burstTime: 5 ms
+****************************************
+
+Start process 84, time: 270 ms, waitingTime: 180 ms
+Finish process 84, time: 275 ms, burstTime: 5 ms
+****************************************
+
+Start process 98, time: 275 ms, waitingTime: 184 ms
+Finish process 98, time: 280 ms, burstTime: 5 ms
+****************************************
+
+Start process 34, time: 280 ms, waitingTime: 187 ms
+Finish process 34, time: 285 ms, burstTime: 5 ms
+****************************************
+
+Start process 12, time: 285 ms, waitingTime: 187 ms
+Finish process 12, time: 290 ms, burstTime: 5 ms
+****************************************
+
+Start process 13, time: 290 ms, waitingTime: 285 ms
+Finish process 13, time: 296 ms, burstTime: 6 ms
+****************************************
+
+Start process 14, time: 296 ms, waitingTime: 281 ms
+Finish process 14, time: 302 ms, burstTime: 6 ms
+****************************************
+
+Start process 54, time: 302 ms, waitingTime: 281 ms
+Finish process 54, time: 308 ms, burstTime: 6 ms
+****************************************
+
+Start process 8, time: 308 ms, waitingTime: 275 ms
+Finish process 8, time: 314 ms, burstTime: 6 ms
+****************************************
+
+Start process 56, time: 314 ms, waitingTime: 270 ms
+Finish process 56, time: 320 ms, burstTime: 6 ms
+****************************************
+
+Start process 59, time: 320 ms, waitingTime: 276 ms
+Finish process 59, time: 326 ms, burstTime: 6 ms
+****************************************
+
+Start process 42, time: 326 ms, waitingTime: 278 ms
+Finish process 42, time: 332 ms, burstTime: 6 ms
+****************************************
+
+Start process 71, time: 332 ms, waitingTime: 284 ms
+Finish process 71, time: 338 ms, burstTime: 6 ms
+****************************************
+
+Start process 65, time: 338 ms, waitingTime: 286 ms
+Finish process 65, time: 344 ms, burstTime: 6 ms
+****************************************
+
+Start process 43, time: 344 ms, waitingTime: 291 ms
+Finish process 43, time: 350 ms, burstTime: 6 ms
+****************************************
+
+Start process 74, time: 350 ms, waitingTime: 292 ms
+Finish process 74, time: 356 ms, burstTime: 6 ms
+****************************************
+
+Start process 7, time: 356 ms, waitingTime: 297 ms
+Finish process 7, time: 362 ms, burstTime: 6 ms
+****************************************
+
+Start process 72, time: 362 ms, waitingTime: 293 ms
+Finish process 72, time: 368 ms, burstTime: 6 ms
+****************************************
+
+Start process 52, time: 368 ms, waitingTime: 294 ms
+Finish process 52, time: 374 ms, burstTime: 6 ms
+****************************************
+
+Start process 3, time: 374 ms, waitingTime: 296 ms
+Finish process 3, time: 380 ms, burstTime: 6 ms
+****************************************
+
+Start process 76, time: 380 ms, waitingTime: 296 ms
+Finish process 76, time: 386 ms, burstTime: 6 ms
+****************************************
+
+Start process 47, time: 386 ms, waitingTime: 301 ms
+Finish process 47, time: 392 ms, burstTime: 6 ms
+****************************************
+
+Start process 25, time: 392 ms, waitingTime: 305 ms
+Finish process 25, time: 398 ms, burstTime: 6 ms
+****************************************
+
+Start process 35, time: 398 ms, waitingTime: 311 ms
+Finish process 35, time: 404 ms, burstTime: 6 ms
+****************************************
+
+Start process 53, time: 404 ms, waitingTime: 309 ms
+Finish process 53, time: 410 ms, burstTime: 6 ms
+****************************************
+
+Start process 67, time: 410 ms, waitingTime: 315 ms
+Finish process 67, time: 416 ms, burstTime: 6 ms
+****************************************
+
+Start process 58, time: 416 ms, waitingTime: 319 ms
+Finish process 58, time: 422 ms, burstTime: 6 ms
+****************************************
+
+Start process 9, time: 422 ms, waitingTime: 323 ms
+Finish process 9, time: 428 ms, burstTime: 6 ms
+****************************************
+
+Start process 61, time: 428 ms, waitingTime: 392 ms
+Finish process 61, time: 435 ms, burstTime: 7 ms
+****************************************
+
+Start process 15, time: 435 ms, waitingTime: 388 ms
+Finish process 15, time: 442 ms, burstTime: 7 ms
+****************************************
+
+Start process 75, time: 442 ms, waitingTime: 382 ms
+Finish process 75, time: 449 ms, burstTime: 7 ms
+****************************************
+
+Start process 48, time: 449 ms, waitingTime: 384 ms
+Finish process 48, time: 456 ms, burstTime: 7 ms
+****************************************
+
+Start process 18, time: 456 ms, waitingTime: 387 ms
+Finish process 18, time: 463 ms, burstTime: 7 ms
+****************************************
+
+Start process 20, time: 463 ms, waitingTime: 376 ms
+Finish process 20, time: 470 ms, burstTime: 7 ms
+****************************************
+
+Start process 81, time: 470 ms, waitingTime: 382 ms
+Finish process 81, time: 477 ms, burstTime: 7 ms
+****************************************
+
+Start process 2, time: 477 ms, waitingTime: 382 ms
+Finish process 2, time: 484 ms, burstTime: 7 ms
+****************************************
+
+Start process 64, time: 484 ms, waitingTime: 388 ms
+Finish process 64, time: 491 ms, burstTime: 7 ms
+****************************************
+
+Start process 79, time: 491 ms, waitingTime: 468 ms
+Finish process 79, time: 499 ms, burstTime: 8 ms
+****************************************
+
+Start process 22, time: 499 ms, waitingTime: 441 ms
+Finish process 22, time: 507 ms, burstTime: 8 ms
+****************************************
+
+Start process 33, time: 507 ms, waitingTime: 414 ms
+Finish process 33, time: 515 ms, burstTime: 8 ms
+****************************************
+
+
+Total processes time: 515 ms
+Total waiting time of processes: 16711 ms
+An average waiting time of all processes: 167.11 ms
+
+
+//DLA N=25 PRZY LOSOWYCH CZASACH PRZYJŚCIA O ŚREDNIM CZASIE WYKONANIA RÓWNYM 10 Z ODCHYLENIEM STANDARDOWYM 5.//
+
+Process 1, arrivalTime: 0ms, burstTime: 8ms
+
+Process 2, arrivalTime: 12ms, burstTime: 17ms
+
+Process 3, arrivalTime: 14ms, burstTime: 13ms
+
+Process 4, arrivalTime: 20ms, burstTime: 10ms
+
+Process 5, arrivalTime: 4ms, burstTime: 13ms
+
+Process 6, arrivalTime: 20ms, burstTime: 10ms
+
+Process 7, arrivalTime: 17ms, burstTime: 10ms
+
+Process 8, arrivalTime: 16ms, burstTime: 21ms
+
+Process 9, arrivalTime: 15ms, burstTime: 8ms
+
+Process 10, arrivalTime: 8ms, burstTime: 6ms
+
+Process 11, arrivalTime: 14ms, burstTime: 9ms
+
+Process 12, arrivalTime: 6ms, burstTime: 9ms
+
+Process 13, arrivalTime: 1ms, burstTime: 16ms
+
+Process 14, arrivalTime: 6ms, burstTime: 14ms
+
+Process 15, arrivalTime: 10ms, burstTime: 13ms
+
+Process 16, arrivalTime: 6ms, burstTime: 7ms
+
+Process 17, arrivalTime: 10ms, burstTime: 14ms
+
+Process 18, arrivalTime: 11ms, burstTime: 4ms
+
+Process 19, arrivalTime: 15ms, burstTime: 14ms
+
+Process 20, arrivalTime: 10ms, burstTime: 8ms
+
+Process 21, arrivalTime: 4ms, burstTime: 7ms
+
+Process 22, arrivalTime: 17ms, burstTime: 7ms
+
+Process 23, arrivalTime: 12ms, burstTime: 8ms
+
+Process 24, arrivalTime: 15ms, burstTime: 22ms
+
+Process 25, arrivalTime: 21ms, burstTime: 11ms
+****************************************
+
+
+"FCFS"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 8 ms, burstTime: 8 ms
+****************************************
+
+Start process 13, time: 8 ms, waitingTime: 7 ms
+Finish process 13, time: 24 ms, burstTime: 16 ms
+****************************************
+
+Start process 5, time: 24 ms, waitingTime: 20 ms
+Finish process 5, time: 37 ms, burstTime: 13 ms
+****************************************
+
+Start process 21, time: 37 ms, waitingTime: 33 ms
+Finish process 21, time: 44 ms, burstTime: 7 ms
+****************************************
+
+Start process 12, time: 44 ms, waitingTime: 38 ms
+Finish process 12, time: 53 ms, burstTime: 9 ms
+****************************************
+
+Start process 14, time: 53 ms, waitingTime: 47 ms
+Finish process 14, time: 67 ms, burstTime: 14 ms
+****************************************
+
+Start process 16, time: 67 ms, waitingTime: 61 ms
+Finish process 16, time: 74 ms, burstTime: 7 ms
+****************************************
+
+Start process 10, time: 74 ms, waitingTime: 66 ms
+Finish process 10, time: 80 ms, burstTime: 6 ms
+****************************************
+
+Start process 15, time: 80 ms, waitingTime: 70 ms
+Finish process 15, time: 93 ms, burstTime: 13 ms
+****************************************
+
+Start process 17, time: 93 ms, waitingTime: 83 ms
+Finish process 17, time: 107 ms, burstTime: 14 ms
+****************************************
+
+Start process 20, time: 107 ms, waitingTime: 97 ms
+Finish process 20, time: 115 ms, burstTime: 8 ms
+****************************************
+
+Start process 18, time: 115 ms, waitingTime: 104 ms
+Finish process 18, time: 119 ms, burstTime: 4 ms
+****************************************
+
+Start process 2, time: 119 ms, waitingTime: 107 ms
+Finish process 2, time: 136 ms, burstTime: 17 ms
+****************************************
+
+Start process 23, time: 136 ms, waitingTime: 124 ms
+Finish process 23, time: 144 ms, burstTime: 8 ms
+****************************************
+
+Start process 3, time: 144 ms, waitingTime: 130 ms
+Finish process 3, time: 157 ms, burstTime: 13 ms
+****************************************
+
+Start process 11, time: 157 ms, waitingTime: 143 ms
+Finish process 11, time: 166 ms, burstTime: 9 ms
+****************************************
+
+Start process 9, time: 166 ms, waitingTime: 151 ms
+Finish process 9, time: 174 ms, burstTime: 8 ms
+****************************************
+
+Start process 19, time: 174 ms, waitingTime: 159 ms
+Finish process 19, time: 188 ms, burstTime: 14 ms
+****************************************
+
+Start process 24, time: 188 ms, waitingTime: 173 ms
+Finish process 24, time: 210 ms, burstTime: 22 ms
+****************************************
+
+Start process 8, time: 210 ms, waitingTime: 194 ms
+Finish process 8, time: 231 ms, burstTime: 21 ms
+****************************************
+
+Start process 7, time: 231 ms, waitingTime: 214 ms
+Finish process 7, time: 241 ms, burstTime: 10 ms
+****************************************
+
+Start process 22, time: 241 ms, waitingTime: 224 ms
+Finish process 22, time: 248 ms, burstTime: 7 ms
+****************************************
+
+Start process 4, time: 248 ms, waitingTime: 228 ms
+Finish process 4, time: 258 ms, burstTime: 10 ms
+****************************************
+
+Start process 6, time: 258 ms, waitingTime: 238 ms
+Finish process 6, time: 268 ms, burstTime: 10 ms
+****************************************
+
+Start process 25, time: 268 ms, waitingTime: 247 ms
+Finish process 25, time: 279 ms, burstTime: 11 ms
+****************************************
+
+
+Total processes time: 279 ms
+Total waiting time of processes: 2958 ms
+An average waiting time of all processes: 118.32 ms
+
+
+Process 1, arrivalTime: 0ms, burstTime: 16ms
+
+Process 2, arrivalTime: 14ms, burstTime: 4ms
+
+Process 3, arrivalTime: 7ms, burstTime: 12ms
+
+Process 4, arrivalTime: 23ms, burstTime: 2ms
+
+Process 5, arrivalTime: 12ms, burstTime: 8ms
+
+Process 6, arrivalTime: 20ms, burstTime: 20ms
+
+Process 7, arrivalTime: 21ms, burstTime: 5ms
+
+Process 8, arrivalTime: 18ms, burstTime: 10ms
+
+Process 9, arrivalTime: 6ms, burstTime: 12ms
+
+Process 10, arrivalTime: 11ms, burstTime: 11ms
+
+Process 11, arrivalTime: 18ms, burstTime: 12ms
+
+Process 12, arrivalTime: 24ms, burstTime: 12ms
+
+Process 13, arrivalTime: 23ms, burstTime: 8ms
+
+Process 14, arrivalTime: 21ms, burstTime: 9ms
+
+Process 15, arrivalTime: 9ms, burstTime: 8ms
+
+Process 16, arrivalTime: 13ms, burstTime: 4ms
+
+Process 17, arrivalTime: 4ms, burstTime: 4ms
+
+Process 18, arrivalTime: 19ms, burstTime: 10ms
+
+Process 19, arrivalTime: 7ms, burstTime: 11ms
+
+Process 20, arrivalTime: 8ms, burstTime: 14ms
+
+Process 21, arrivalTime: 20ms, burstTime: 6ms
+
+Process 22, arrivalTime: 9ms, burstTime: 22ms
+
+Process 23, arrivalTime: 5ms, burstTime: 8ms
+
+Process 24, arrivalTime: 11ms, burstTime: 18ms
+
+Process 25, arrivalTime: 17ms, burstTime: 1ms
+****************************************
+
+
+"SJF"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 16 ms, burstTime: 16 ms
+****************************************
+
+Start process 17, time: 16 ms, waitingTime: 12 ms
+Finish process 17, time: 20 ms, burstTime: 4 ms
+****************************************
+
+Start process 25, time: 20 ms, waitingTime: 3 ms
+Finish process 25, time: 21 ms, burstTime: 1 ms
+****************************************
+
+Start process 16, time: 21 ms, waitingTime: 8 ms
+Finish process 16, time: 25 ms, burstTime: 4 ms
+****************************************
+
+Start process 4, time: 25 ms, waitingTime: 2 ms
+Finish process 4, time: 27 ms, burstTime: 2 ms
+****************************************
+
+Start process 2, time: 27 ms, waitingTime: 13 ms
+Finish process 2, time: 31 ms, burstTime: 4 ms
+****************************************
+
+Start process 7, time: 31 ms, waitingTime: 10 ms
+Finish process 7, time: 36 ms, burstTime: 5 ms
+****************************************
+
+Start process 21, time: 36 ms, waitingTime: 16 ms
+Finish process 21, time: 42 ms, burstTime: 6 ms
+****************************************
+
+Start process 23, time: 42 ms, waitingTime: 37 ms
+Finish process 23, time: 50 ms, burstTime: 8 ms
+****************************************
+
+Start process 15, time: 50 ms, waitingTime: 41 ms
+Finish process 15, time: 58 ms, burstTime: 8 ms
+****************************************
+
+Start process 5, time: 58 ms, waitingTime: 46 ms
+Finish process 5, time: 66 ms, burstTime: 8 ms
+****************************************
+
+Start process 13, time: 66 ms, waitingTime: 43 ms
+Finish process 13, time: 74 ms, burstTime: 8 ms
+****************************************
+
+Start process 14, time: 74 ms, waitingTime: 53 ms
+Finish process 14, time: 83 ms, burstTime: 9 ms
+****************************************
+
+Start process 8, time: 83 ms, waitingTime: 65 ms
+Finish process 8, time: 93 ms, burstTime: 10 ms
+****************************************
+
+Start process 18, time: 93 ms, waitingTime: 74 ms
+Finish process 18, time: 103 ms, burstTime: 10 ms
+****************************************
+
+Start process 19, time: 103 ms, waitingTime: 96 ms
+Finish process 19, time: 114 ms, burstTime: 11 ms
+****************************************
+
+Start process 10, time: 114 ms, waitingTime: 103 ms
+Finish process 10, time: 125 ms, burstTime: 11 ms
+****************************************
+
+Start process 9, time: 125 ms, waitingTime: 119 ms
+Finish process 9, time: 137 ms, burstTime: 12 ms
+****************************************
+
+Start process 3, time: 137 ms, waitingTime: 130 ms
+Finish process 3, time: 149 ms, burstTime: 12 ms
+****************************************
+
+Start process 11, time: 149 ms, waitingTime: 131 ms
+Finish process 11, time: 161 ms, burstTime: 12 ms
+****************************************
+
+Start process 12, time: 161 ms, waitingTime: 137 ms
+Finish process 12, time: 173 ms, burstTime: 12 ms
+****************************************
+
+Start process 20, time: 173 ms, waitingTime: 165 ms
+Finish process 20, time: 187 ms, burstTime: 14 ms
+****************************************
+
+Start process 24, time: 187 ms, waitingTime: 176 ms
+Finish process 24, time: 205 ms, burstTime: 18 ms
+****************************************
+
+Start process 6, time: 205 ms, waitingTime: 185 ms
+Finish process 6, time: 225 ms, burstTime: 20 ms
+****************************************
+
+Start process 22, time: 225 ms, waitingTime: 216 ms
+Finish process 22, time: 247 ms, burstTime: 22 ms
+****************************************
+
+
+Total processes time: 247 ms
+Total waiting time of processes: 1881 ms
+An average waiting time of all processes: 75.24 ms
+
+
+//DLA N=50 PRZY LOSOWYCH CZASACH PRZYJŚCIA O ŚREDNIM CZASIE WYKONANIA RÓWNYM 10 Z ODCHYLENIEM STANDARDOWYM 5.//
+
+Process 1, arrivalTime: 0ms, burstTime: 9ms
+
+Process 2, arrivalTime: 20ms, burstTime: 16ms
+
+Process 3, arrivalTime: 1ms, burstTime: 10ms
+
+Process 4, arrivalTime: 21ms, burstTime: 9ms
+
+Process 5, arrivalTime: 48ms, burstTime: 19ms
+
+Process 6, arrivalTime: 14ms, burstTime: 1ms
+
+Process 7, arrivalTime: 30ms, burstTime: 9ms
+
+Process 8, arrivalTime: 37ms, burstTime: 16ms
+
+Process 9, arrivalTime: 12ms, burstTime: 7ms
+
+Process 10, arrivalTime: 14ms, burstTime: 14ms
+
+Process 11, arrivalTime: 19ms, burstTime: 11ms
+
+Process 12, arrivalTime: 1ms, burstTime: 15ms
+
+Process 13, arrivalTime: 34ms, burstTime: 11ms
+
+Process 14, arrivalTime: 28ms, burstTime: 22ms
+
+Process 15, arrivalTime: 17ms, burstTime: 11ms
+
+Process 16, arrivalTime: 2ms, burstTime: 2ms
+
+Process 17, arrivalTime: 21ms, burstTime: 10ms
+
+Process 18, arrivalTime: 26ms, burstTime: 13ms
+
+Process 19, arrivalTime: 22ms, burstTime: 8ms
+
+Process 20, arrivalTime: 37ms, burstTime: 7ms
+
+Process 21, arrivalTime: 18ms, burstTime: 10ms
+
+Process 22, arrivalTime: 22ms, burstTime: 10ms
+
+Process 23, arrivalTime: 44ms, burstTime: 20ms
+
+Process 24, arrivalTime: 21ms, burstTime: 11ms
+
+Process 25, arrivalTime: 18ms, burstTime: 5ms
+
+Process 26, arrivalTime: 49ms, burstTime: 6ms
+
+Process 27, arrivalTime: 27ms, burstTime: 16ms
+
+Process 28, arrivalTime: 26ms, burstTime: 12ms
+
+Process 29, arrivalTime: 4ms, burstTime: 15ms
+
+Process 30, arrivalTime: 19ms, burstTime: 11ms
+
+Process 31, arrivalTime: 45ms, burstTime: 6ms
+
+Process 32, arrivalTime: 26ms, burstTime: 9ms
+
+Process 33, arrivalTime: 30ms, burstTime: 13ms
+
+Process 34, arrivalTime: 25ms, burstTime: 5ms
+
+Process 35, arrivalTime: 46ms, burstTime: 6ms
+
+Process 36, arrivalTime: 13ms, burstTime: 9ms
+
+Process 37, arrivalTime: 1ms, burstTime: 15ms
+
+Process 38, arrivalTime: 45ms, burstTime: 9ms
+
+Process 39, arrivalTime: 30ms, burstTime: 11ms
+
+Process 40, arrivalTime: 47ms, burstTime: 9ms
+
+Process 41, arrivalTime: 49ms, burstTime: 13ms
+
+Process 42, arrivalTime: 48ms, burstTime: 12ms
+
+Process 43, arrivalTime: 48ms, burstTime: 5ms
+
+Process 44, arrivalTime: 49ms, burstTime: 3ms
+
+Process 45, arrivalTime: 5ms, burstTime: 1ms
+
+Process 46, arrivalTime: 13ms, burstTime: 11ms
+
+Process 47, arrivalTime: 2ms, burstTime: 13ms
+
+Process 48, arrivalTime: 7ms, burstTime: 2ms
+
+Process 49, arrivalTime: 33ms, burstTime: 5ms
+
+Process 50, arrivalTime: 37ms, burstTime: 8ms
+****************************************
+
+
+"FCFS"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 9 ms, burstTime: 9 ms
+****************************************
+
+Start process 3, time: 9 ms, waitingTime: 8 ms
+Finish process 3, time: 19 ms, burstTime: 10 ms
+****************************************
+
+Start process 12, time: 19 ms, waitingTime: 18 ms
+Finish process 12, time: 34 ms, burstTime: 15 ms
+****************************************
+
+Start process 37, time: 34 ms, waitingTime: 33 ms
+Finish process 37, time: 49 ms, burstTime: 15 ms
+****************************************
+
+Start process 16, time: 49 ms, waitingTime: 47 ms
+Finish process 16, time: 51 ms, burstTime: 2 ms
+****************************************
+
+Start process 47, time: 51 ms, waitingTime: 49 ms
+Finish process 47, time: 64 ms, burstTime: 13 ms
+****************************************
+
+Start process 29, time: 64 ms, waitingTime: 60 ms
+Finish process 29, time: 79 ms, burstTime: 15 ms
+****************************************
+
+Start process 45, time: 79 ms, waitingTime: 74 ms
+Finish process 45, time: 80 ms, burstTime: 1 ms
+****************************************
+
+Start process 48, time: 80 ms, waitingTime: 73 ms
+Finish process 48, time: 82 ms, burstTime: 2 ms
+****************************************
+
+Start process 9, time: 82 ms, waitingTime: 70 ms
+Finish process 9, time: 89 ms, burstTime: 7 ms
+****************************************
+
+Start process 36, time: 89 ms, waitingTime: 76 ms
+Finish process 36, time: 98 ms, burstTime: 9 ms
+****************************************
+
+Start process 46, time: 98 ms, waitingTime: 85 ms
+Finish process 46, time: 109 ms, burstTime: 11 ms
+****************************************
+
+Start process 6, time: 109 ms, waitingTime: 95 ms
+Finish process 6, time: 110 ms, burstTime: 1 ms
+****************************************
+
+Start process 10, time: 110 ms, waitingTime: 96 ms
+Finish process 10, time: 124 ms, burstTime: 14 ms
+****************************************
+
+Start process 15, time: 124 ms, waitingTime: 107 ms
+Finish process 15, time: 135 ms, burstTime: 11 ms
+****************************************
+
+Start process 21, time: 135 ms, waitingTime: 117 ms
+Finish process 21, time: 145 ms, burstTime: 10 ms
+****************************************
+
+Start process 25, time: 145 ms, waitingTime: 127 ms
+Finish process 25, time: 150 ms, burstTime: 5 ms
+****************************************
+
+Start process 11, time: 150 ms, waitingTime: 131 ms
+Finish process 11, time: 161 ms, burstTime: 11 ms
+****************************************
+
+Start process 30, time: 161 ms, waitingTime: 142 ms
+Finish process 30, time: 172 ms, burstTime: 11 ms
+****************************************
+
+Start process 2, time: 172 ms, waitingTime: 152 ms
+Finish process 2, time: 188 ms, burstTime: 16 ms
+****************************************
+
+Start process 4, time: 188 ms, waitingTime: 167 ms
+Finish process 4, time: 197 ms, burstTime: 9 ms
+****************************************
+
+Start process 17, time: 197 ms, waitingTime: 176 ms
+Finish process 17, time: 207 ms, burstTime: 10 ms
+****************************************
+
+Start process 24, time: 207 ms, waitingTime: 186 ms
+Finish process 24, time: 218 ms, burstTime: 11 ms
+****************************************
+
+Start process 19, time: 218 ms, waitingTime: 196 ms
+Finish process 19, time: 226 ms, burstTime: 8 ms
+****************************************
+
+Start process 22, time: 226 ms, waitingTime: 204 ms
+Finish process 22, time: 236 ms, burstTime: 10 ms
+****************************************
+
+Start process 34, time: 236 ms, waitingTime: 211 ms
+Finish process 34, time: 241 ms, burstTime: 5 ms
+****************************************
+
+Start process 18, time: 241 ms, waitingTime: 215 ms
+Finish process 18, time: 254 ms, burstTime: 13 ms
+****************************************
+
+Start process 28, time: 254 ms, waitingTime: 228 ms
+Finish process 28, time: 266 ms, burstTime: 12 ms
+****************************************
+
+Start process 32, time: 266 ms, waitingTime: 240 ms
+Finish process 32, time: 275 ms, burstTime: 9 ms
+****************************************
+
+Start process 27, time: 275 ms, waitingTime: 248 ms
+Finish process 27, time: 291 ms, burstTime: 16 ms
+****************************************
+
+Start process 14, time: 291 ms, waitingTime: 263 ms
+Finish process 14, time: 313 ms, burstTime: 22 ms
+****************************************
+
+Start process 7, time: 313 ms, waitingTime: 283 ms
+Finish process 7, time: 322 ms, burstTime: 9 ms
+****************************************
+
+Start process 33, time: 322 ms, waitingTime: 292 ms
+Finish process 33, time: 335 ms, burstTime: 13 ms
+****************************************
+
+Start process 39, time: 335 ms, waitingTime: 305 ms
+Finish process 39, time: 346 ms, burstTime: 11 ms
+****************************************
+
+Start process 49, time: 346 ms, waitingTime: 313 ms
+Finish process 49, time: 351 ms, burstTime: 5 ms
+****************************************
+
+Start process 13, time: 351 ms, waitingTime: 317 ms
+Finish process 13, time: 362 ms, burstTime: 11 ms
+****************************************
+
+Start process 8, time: 362 ms, waitingTime: 325 ms
+Finish process 8, time: 378 ms, burstTime: 16 ms
+****************************************
+
+Start process 20, time: 378 ms, waitingTime: 341 ms
+Finish process 20, time: 385 ms, burstTime: 7 ms
+****************************************
+
+Start process 50, time: 385 ms, waitingTime: 348 ms
+Finish process 50, time: 393 ms, burstTime: 8 ms
+****************************************
+
+Start process 23, time: 393 ms, waitingTime: 349 ms
+Finish process 23, time: 413 ms, burstTime: 20 ms
+****************************************
+
+Start process 31, time: 413 ms, waitingTime: 368 ms
+Finish process 31, time: 419 ms, burstTime: 6 ms
+****************************************
+
+Start process 38, time: 419 ms, waitingTime: 374 ms
+Finish process 38, time: 428 ms, burstTime: 9 ms
+****************************************
+
+Start process 35, time: 428 ms, waitingTime: 382 ms
+Finish process 35, time: 434 ms, burstTime: 6 ms
+****************************************
+
+Start process 40, time: 434 ms, waitingTime: 387 ms
+Finish process 40, time: 443 ms, burstTime: 9 ms
+****************************************
+
+Start process 5, time: 443 ms, waitingTime: 395 ms
+Finish process 5, time: 462 ms, burstTime: 19 ms
+****************************************
+
+Start process 42, time: 462 ms, waitingTime: 414 ms
+Finish process 42, time: 474 ms, burstTime: 12 ms
+****************************************
+
+Start process 43, time: 474 ms, waitingTime: 426 ms
+Finish process 43, time: 479 ms, burstTime: 5 ms
+****************************************
+
+Start process 26, time: 479 ms, waitingTime: 430 ms
+Finish process 26, time: 485 ms, burstTime: 6 ms
+****************************************
+
+Start process 41, time: 485 ms, waitingTime: 436 ms
+Finish process 41, time: 498 ms, burstTime: 13 ms
+****************************************
+
+Start process 44, time: 498 ms, waitingTime: 449 ms
+Finish process 44, time: 501 ms, burstTime: 3 ms
+****************************************
+
+
+Total processes time: 501 ms
+Total waiting time of processes: 10828 ms
+An average waiting time of all processes: 216.56 ms
+
+
+Process 1, arrivalTime: 0ms, burstTime: 19ms
+
+Process 2, arrivalTime: 21ms, burstTime: 15ms
+
+Process 3, arrivalTime: 12ms, burstTime: 16ms
+
+Process 4, arrivalTime: 41ms, burstTime: 11ms
+
+Process 5, arrivalTime: 9ms, burstTime: 14ms
+
+Process 6, arrivalTime: 21ms, burstTime: 7ms
+
+Process 7, arrivalTime: 16ms, burstTime: 13ms
+
+Process 8, arrivalTime: 4ms, burstTime: 15ms
+
+Process 9, arrivalTime: 9ms, burstTime: 10ms
+
+Process 10, arrivalTime: 28ms, burstTime: 9ms
+
+Process 11, arrivalTime: 37ms, burstTime: 15ms
+
+Process 12, arrivalTime: 13ms, burstTime: 16ms
+
+Process 13, arrivalTime: 38ms, burstTime: 11ms
+
+Process 14, arrivalTime: 15ms, burstTime: 13ms
+
+Process 15, arrivalTime: 8ms, burstTime: 5ms
+
+Process 16, arrivalTime: 35ms, burstTime: 4ms
+
+Process 17, arrivalTime: 34ms, burstTime: 12ms
+
+Process 18, arrivalTime: 5ms, burstTime: 6ms
+
+Process 19, arrivalTime: 46ms, burstTime: 6ms
+
+Process 20, arrivalTime: 46ms, burstTime: 10ms
+
+Process 21, arrivalTime: 38ms, burstTime: 3ms
+
+Process 22, arrivalTime: 12ms, burstTime: 12ms
+
+Process 23, arrivalTime: 40ms, burstTime: 10ms
+
+Process 24, arrivalTime: 46ms, burstTime: 16ms
+
+Process 25, arrivalTime: 4ms, burstTime: 5ms
+
+Process 26, arrivalTime: 13ms, burstTime: 10ms
+
+Process 27, arrivalTime: 3ms, burstTime: 6ms
+
+Process 28, arrivalTime: 48ms, burstTime: 15ms
+
+Process 29, arrivalTime: 44ms, burstTime: 16ms
+
+Process 30, arrivalTime: 39ms, burstTime: 4ms
+
+Process 31, arrivalTime: 44ms, burstTime: 8ms
+
+Process 32, arrivalTime: 6ms, burstTime: 3ms
+
+Process 33, arrivalTime: 4ms, burstTime: 13ms
+
+Process 34, arrivalTime: 29ms, burstTime: 13ms
+
+Process 35, arrivalTime: 4ms, burstTime: 16ms
+
+Process 36, arrivalTime: 45ms, burstTime: 13ms
+
+Process 37, arrivalTime: 21ms, burstTime: 13ms
+
+Process 38, arrivalTime: 9ms, burstTime: 9ms
+
+Process 39, arrivalTime: 13ms, burstTime: 11ms
+
+Process 40, arrivalTime: 26ms, burstTime: 7ms
+
+Process 41, arrivalTime: 5ms, burstTime: 11ms
+
+Process 42, arrivalTime: 26ms, burstTime: 12ms
+
+Process 43, arrivalTime: 22ms, burstTime: 6ms
+
+Process 44, arrivalTime: 21ms, burstTime: 6ms
+
+Process 45, arrivalTime: 1ms, burstTime: 12ms
+
+Process 46, arrivalTime: 31ms, burstTime: 15ms
+
+Process 47, arrivalTime: 28ms, burstTime: 5ms
+
+Process 48, arrivalTime: 29ms, burstTime: 10ms
+
+Process 49, arrivalTime: 25ms, burstTime: 15ms
+
+Process 50, arrivalTime: 6ms, burstTime: 2ms
+****************************************
+
+
+"SJF"
+Start process 1, time: 0 ms, waitingTime: 0 ms
+Finish process 1, time: 19 ms, burstTime: 19 ms
+****************************************
+
+Start process 50, time: 19 ms, waitingTime: 13 ms
+Finish process 50, time: 21 ms, burstTime: 2 ms
+****************************************
+
+Start process 32, time: 21 ms, waitingTime: 15 ms
+Finish process 32, time: 24 ms, burstTime: 3 ms
+****************************************
+
+Start process 25, time: 24 ms, waitingTime: 20 ms
+Finish process 25, time: 29 ms, burstTime: 5 ms
+****************************************
+
+Start process 15, time: 29 ms, waitingTime: 21 ms
+Finish process 15, time: 34 ms, burstTime: 5 ms
+****************************************
+
+Start process 47, time: 34 ms, waitingTime: 6 ms
+Finish process 47, time: 39 ms, burstTime: 5 ms
+****************************************
+
+Start process 21, time: 39 ms, waitingTime: 1 ms
+Finish process 21, time: 42 ms, burstTime: 3 ms
+****************************************
+
+Start process 16, time: 42 ms, waitingTime: 7 ms
+Finish process 16, time: 46 ms, burstTime: 4 ms
+****************************************
+
+Start process 30, time: 46 ms, waitingTime: 7 ms
+Finish process 30, time: 50 ms, burstTime: 4 ms
+****************************************
+
+Start process 27, time: 50 ms, waitingTime: 47 ms
+Finish process 27, time: 56 ms, burstTime: 6 ms
+****************************************
+
+Start process 18, time: 56 ms, waitingTime: 51 ms
+Finish process 18, time: 62 ms, burstTime: 6 ms
+****************************************
+
+Start process 44, time: 62 ms, waitingTime: 41 ms
+Finish process 44, time: 68 ms, burstTime: 6 ms
+****************************************
+
+Start process 43, time: 68 ms, waitingTime: 46 ms
+Finish process 43, time: 74 ms, burstTime: 6 ms
+****************************************
+
+Start process 19, time: 74 ms, waitingTime: 28 ms
+Finish process 19, time: 80 ms, burstTime: 6 ms
+****************************************
+
+Start process 6, time: 80 ms, waitingTime: 59 ms
+Finish process 6, time: 87 ms, burstTime: 7 ms
+****************************************
+
+Start process 40, time: 87 ms, waitingTime: 61 ms
+Finish process 40, time: 94 ms, burstTime: 7 ms
+****************************************
+
+Start process 31, time: 94 ms, waitingTime: 50 ms
+Finish process 31, time: 102 ms, burstTime: 8 ms
+****************************************
+
+Start process 38, time: 102 ms, waitingTime: 93 ms
+Finish process 38, time: 111 ms, burstTime: 9 ms
+****************************************
+
+Start process 10, time: 111 ms, waitingTime: 83 ms
+Finish process 10, time: 120 ms, burstTime: 9 ms
+****************************************
+
+Start process 9, time: 120 ms, waitingTime: 111 ms
+Finish process 9, time: 130 ms, burstTime: 10 ms
+****************************************
+
+Start process 26, time: 130 ms, waitingTime: 117 ms
+Finish process 26, time: 140 ms, burstTime: 10 ms
+****************************************
+
+Start process 48, time: 140 ms, waitingTime: 111 ms
+Finish process 48, time: 150 ms, burstTime: 10 ms
+****************************************
+
+Start process 23, time: 150 ms, waitingTime: 110 ms
+Finish process 23, time: 160 ms, burstTime: 10 ms
+****************************************
+
+Start process 20, time: 160 ms, waitingTime: 114 ms
+Finish process 20, time: 170 ms, burstTime: 10 ms
+****************************************
+
+Start process 41, time: 170 ms, waitingTime: 165 ms
+Finish process 41, time: 181 ms, burstTime: 11 ms
+****************************************
+
+Start process 39, time: 181 ms, waitingTime: 168 ms
+Finish process 39, time: 192 ms, burstTime: 11 ms
+****************************************
+
+Start process 13, time: 192 ms, waitingTime: 154 ms
+Finish process 13, time: 203 ms, burstTime: 11 ms
+****************************************
+
+Start process 4, time: 203 ms, waitingTime: 162 ms
+Finish process 4, time: 214 ms, burstTime: 11 ms
+****************************************
+
+Start process 45, time: 214 ms, waitingTime: 213 ms
+Finish process 45, time: 226 ms, burstTime: 12 ms
+****************************************
+
+Start process 22, time: 226 ms, waitingTime: 214 ms
+Finish process 22, time: 238 ms, burstTime: 12 ms
+****************************************
+
+Start process 42, time: 238 ms, waitingTime: 212 ms
+Finish process 42, time: 250 ms, burstTime: 12 ms
+****************************************
+
+Start process 17, time: 250 ms, waitingTime: 216 ms
+Finish process 17, time: 262 ms, burstTime: 12 ms
+****************************************
+
+Start process 33, time: 262 ms, waitingTime: 258 ms
+Finish process 33, time: 275 ms, burstTime: 13 ms
+****************************************
+
+Start process 14, time: 275 ms, waitingTime: 260 ms
+Finish process 14, time: 288 ms, burstTime: 13 ms
+****************************************
+
+Start process 7, time: 288 ms, waitingTime: 272 ms
+Finish process 7, time: 301 ms, burstTime: 13 ms
+****************************************
+
+Start process 37, time: 301 ms, waitingTime: 280 ms
+Finish process 37, time: 314 ms, burstTime: 13 ms
+****************************************
+
+Start process 34, time: 314 ms, waitingTime: 285 ms
+Finish process 34, time: 327 ms, burstTime: 13 ms
+****************************************
+
+Start process 36, time: 327 ms, waitingTime: 282 ms
+Finish process 36, time: 340 ms, burstTime: 13 ms
+****************************************
+
+Start process 5, time: 340 ms, waitingTime: 331 ms
+Finish process 5, time: 354 ms, burstTime: 14 ms
+****************************************
+
+Start process 8, time: 354 ms, waitingTime: 350 ms
+Finish process 8, time: 369 ms, burstTime: 15 ms
+****************************************
+
+Start process 2, time: 369 ms, waitingTime: 348 ms
+Finish process 2, time: 384 ms, burstTime: 15 ms
+****************************************
+
+Start process 49, time: 384 ms, waitingTime: 359 ms
+Finish process 49, time: 399 ms, burstTime: 15 ms
+****************************************
+
+Start process 46, time: 399 ms, waitingTime: 368 ms
+Finish process 46, time: 414 ms, burstTime: 15 ms
+****************************************
+
+Start process 11, time: 414 ms, waitingTime: 377 ms
+Finish process 11, time: 429 ms, burstTime: 15 ms
+****************************************
+
+Start process 28, time: 429 ms, waitingTime: 381 ms
+Finish process 28, time: 444 ms, burstTime: 15 ms
+****************************************
+
+Start process 35, time: 444 ms, waitingTime: 440 ms
+Finish process 35, time: 460 ms, burstTime: 16 ms
+****************************************
+
+Start process 3, time: 460 ms, waitingTime: 448 ms
+Finish process 3, time: 476 ms, burstTime: 16 ms
+****************************************
+
+Start process 12, time: 476 ms, waitingTime: 463 ms
+Finish process 12, time: 492 ms, burstTime: 16 ms
+****************************************
+
+Start process 29, time: 492 ms, waitingTime: 448 ms
+Finish process 29, time: 508 ms, burstTime: 16 ms
+****************************************
+
+Start process 24, time: 508 ms, waitingTime: 462 ms
+Finish process 24, time: 524 ms, burstTime: 16 ms
+****************************************
+
+
+Total processes time: 524 ms
+Total waiting time of processes: 9128 ms
+An average waiting time of all processes: 182.56 ms
+
